@@ -1,3 +1,5 @@
 This file belongs to develop branch.
 
 I am creating some changes that needs to be pushed into development remote branch.
+
+User 2 has pushed his changes.
