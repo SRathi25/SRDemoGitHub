@@ -2,4 +2,8 @@ We are learning GIT today.
 
 Today's date is 27 Oct 2023
 
+<<<<<<< HEAD
 3rd user made the changes
+=======
+2nd user made some changes
+>>>>>>> 43a9888cf60fd6fe3834c019a0c9537d75417995
