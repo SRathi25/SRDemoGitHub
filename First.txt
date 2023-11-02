@@ -6,10 +6,11 @@ Time is 7:10 p.m.
 
 We are learning Github
 
-<<<<<<< HEAD
+
 Some changes made
-=======
 2nd user made some changes
->>>>>>> d976c62dec667f1079eaae4ab66822200fc43851
+d976c62dec667f1079eaae4ab66822200fc43851
+
 
 Making some change 2 Nov 2023
+3rd user made the change
