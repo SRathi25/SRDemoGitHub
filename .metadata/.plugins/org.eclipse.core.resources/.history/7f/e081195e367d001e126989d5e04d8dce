@@ -1,0 +1,17 @@
+package SeleniumPractice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BasicLocatorsRedBus {
+
+	public static void main(String[] args) {
+		WebDriver driver;
+		System.setProperty("","");
+		driver=new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.redbus.com/");
+
+	}
+
+}

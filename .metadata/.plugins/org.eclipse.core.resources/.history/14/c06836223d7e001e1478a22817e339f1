@@ -1,0 +1,13 @@
+package JenkinsClass;
+
+import org.testng.annotations.Test;
+
+public class BasicCalculator {
+
+	@Test
+	public void addFn()
+	{
+		
+	}
+	
+}

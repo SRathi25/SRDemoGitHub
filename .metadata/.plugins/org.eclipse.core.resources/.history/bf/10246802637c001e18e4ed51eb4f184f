@@ -1,0 +1,17 @@
+package DemoPageFactory;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class RediffLoginPF {
+	
+	@FindBy(xpath = "")
+	WebElement txtUsername;
+	
+	@FindBy(xpath = "")
+	WebElement txtPassword;
+	
+	@FindBy(xpath = "")
+	WebElement btnSign;
+
+}

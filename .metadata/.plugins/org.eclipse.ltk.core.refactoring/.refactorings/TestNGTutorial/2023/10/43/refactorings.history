@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;TestNGTutorial&apos;&#x0D;&#x0A;- Original project: &apos;TestNGTutorial&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     TestNGTutorials.DemoGoogle.java&#x0D;&#x0A;     TestNGTutorials.DemoTestNGAllAnnotations.java&#x0D;&#x0A;     TestNGTutorials.DemoTestNGAnnotations.java&#x0D;&#x0A;     TestNGTutorials.OpenMultipleWebsites.java" description="Delete elements" element1="/src&lt;TestNGTutorials{OpenMultipleWebsites.java" element2="/src&lt;TestNGTutorials{DemoTestNGAllAnnotations.java" element3="/src&lt;TestNGTutorials{DemoTestNGAnnotations.java" element4="/src&lt;TestNGTutorials{DemoGoogle.java" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1698381694433" subPackages="false" version="1.0"/>
+</session>

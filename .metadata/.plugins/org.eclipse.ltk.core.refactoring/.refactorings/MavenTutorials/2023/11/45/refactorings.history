@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BasicCalculator.java&apos; to &apos;JenkinsTutorials/src/test/java/MavenProject.JenkinsTutorials&apos;&#x0D;&#x0A;- Original project: &apos;MavenTutorials&apos;&#x0D;&#x0A;- Destination element: &apos;JenkinsTutorials/src/test/java/MavenProject.JenkinsTutorials&apos;&#x0D;&#x0A;- Original element: &apos;JenkinsClass.BasicCalculator.java&apos;" description="Copy compilation unit" destination="=JenkinsTutorials/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;MavenProject.JenkinsTutorials" element1="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;JenkinsClass{BasicCalculator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1699452452338" units="1" version="1.0"/>
+</session>

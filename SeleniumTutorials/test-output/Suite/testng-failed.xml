@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="Smoke Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNGDTutorials.OpenMultipleWebsites">
+        <methods>
+          <include name="websiteGoogle"/>
+          <include name="closeBrowserAfterTest"/>
+          <include name="websiteYahoo"/>
+          <include name="afterClass"/>
+          <include name="closeBrowser"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestNGDTutorials.OpenMultipleWebsites -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

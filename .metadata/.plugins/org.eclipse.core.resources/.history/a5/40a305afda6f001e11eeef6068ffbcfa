@@ -1,0 +1,40 @@
+package Demo;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class DemoHandlingAlerts {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver;
+		System.setProperty("webdriver.chrome.driver", "E://JarFiles//chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://demoqa.com/alerts");
+		
+		//By.xpath("//button[@id='alertButton']")
+		//By.id("alertButton")
+		WebDriverWait wait=new WebDriverWait(driver,20);
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='alertButton']"))).click();
+	//	wait.until(ExpectedConditions.elementToBeClickable(By.id("alertButton"))).click();
+		
+		
+		//Switch to alert
+		Alert a=driver.switchTo().alert();
+		String msg=a.getText();
+		System.out.println(msg);
+		a.accept();
+		
+		//Switch to main window
+		driver.switchTo().defaultContent();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package DemoPageFactory;
+
+import org.testng.annotations.Test;
+
+public class RediffTestExecution {
+  @Test
+  public void f() {
+  }
+}

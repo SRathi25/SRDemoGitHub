@@ -1,0 +1,9 @@
+package DemoGrid;
+
+import org.testng.annotations.Test;
+
+public class SeleniumGridTest {
+  @Test
+  public void f() {
+  }
+}

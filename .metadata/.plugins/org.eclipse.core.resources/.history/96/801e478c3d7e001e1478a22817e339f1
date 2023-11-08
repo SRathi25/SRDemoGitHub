@@ -1,0 +1,31 @@
+package JenkinsClass;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class BasicCalculator {
+
+	
+	public void sum()
+	{
+		int a=5;
+		int b=10;
+		int sum=a+b;
+		System.out.println("Sum = " + sum);
+		
+	}
+	
+	@BeforeTest
+	public void BeforeTest()
+	{
+		
+	}
+	
+	@AfterTest
+	public void AfterTest()
+	{
+		
+	}
+	
+}

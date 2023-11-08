@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DemoReadExcel.java&apos; to &apos;MavenTutorials/src/test/java/MavenProject.MavenTutorials&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumTutorials&apos;&#x0D;&#x0A;- Destination element: &apos;MavenTutorials/src/test/java/MavenProject.MavenTutorials&apos;&#x0D;&#x0A;- Original element: &apos;Excel.DemoReadExcel.java&apos;" description="Copy compilation unit" destination="=MavenTutorials/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;MavenProject.MavenTutorials" element1="/src&lt;Excel{DemoReadExcel.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1698812352239" units="1" version="1.0"/>
+</session>

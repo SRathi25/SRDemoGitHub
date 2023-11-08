@@ -1,0 +1,31 @@
+package Demo;
+
+import java.util.Set;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DemoHandlingPopupWindows {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver;
+		System.setProperty("webdriver.chrome.driver", "E://JarFiles//chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.online.citibank.co.in/");
+		
+		
+		Set<String> allWins=driver.getWindowHandles();
+		if(!allWins.isEmpty())
+		{
+			for(String winld:allWins)
+			{
+				driver.switchTo().window(winld);
+				if(driver.getPageSource().contains("This is message window"));
+			}
+		}
+
+	}
+
+}

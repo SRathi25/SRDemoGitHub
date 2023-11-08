@@ -1,0 +1,22 @@
+package Demo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DemoImplicitWait {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		WebDriver driver;
+		System.setProperty("webdriver.chrome.driver", "E://JarFiles//chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.get("https://www.naukri.com");
+		driver.manage().window().maximize();
+		//implicit wait
+		Thread.sleep(2000);
+		System.out.println(driver.findElement(By.xpath("//h2[@class=standard-collection]")));
+		
+	}
+
+}

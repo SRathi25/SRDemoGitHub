@@ -1,0 +1,8 @@
+Feature: Test Google application
+
+
+Scenario: Test google page title
+	Given I open Google application
+	When I capture title
+	Then I should get valid title as Google
+	
