@@ -344,3 +344,4 @@
 2023-11-09 09:00:48,717 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
 2023-11-09 09:01:07,051 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SeleniumAssignments\CucumberTutorials\CucumberAssignments\src\main\resources
 2023-11-09 09:01:07,070 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SeleniumAssignments\CucumberTutorials\CucumberAssignments\src\test\resources
+2023-11-09 09:06:31,256 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
