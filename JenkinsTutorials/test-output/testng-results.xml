@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-08T19:51:07 IST" name="Default suite" finished-at="2023-11-08T19:51:08 IST" duration-ms="235">
+  <suite started-at="2023-11-09T08:42:17 IST" name="Default suite" finished-at="2023-11-09T08:42:17 IST" duration-ms="159">
     <groups>
     </groups>
-    <test started-at="2023-11-08T19:51:07 IST" name="Default test" finished-at="2023-11-08T19:51:08 IST" duration-ms="235">
-      <class name="MavenProject.JenkinsTutorials.BasicCalculator">
-        <test-method signature="sum()[pri:0, instance:MavenProject.JenkinsTutorials.BasicCalculator@31fa1761]" started-at="2023-11-08T19:51:08 IST" name="sum" finished-at="2023-11-08T19:51:08 IST" duration-ms="26" status="PASS">
+    <test started-at="2023-11-09T08:42:17 IST" name="Default test" finished-at="2023-11-09T08:42:17 IST" duration-ms="159">
+      <class name="Utility.BasicCalculator">
+        <test-method signature="sum()[pri:0, instance:Utility.BasicCalculator@58695725]" started-at="2023-11-09T08:42:17 IST" name="sum" finished-at="2023-11-09T08:42:17 IST" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-      </class> <!-- MavenProject.JenkinsTutorials.BasicCalculator -->
+      </class> <!-- Utility.BasicCalculator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -26,12 +26,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="MavenProject.JenkinsTutorials"/>
+			<item value="MavenProject"/>
 			<item value="MavenProject.MavenTutorials"/>
 		</list>
 		<list key="groupId">
 			<item value="MavenProject"/>
 		</list>
 		<list key="artifactId">
+			<item value="JenkinsTutorials"/>
 			<item value="MavenTutorials"/>
 		</list>
 		<list key="projectNameTemplate">
